@@ -15,7 +15,7 @@ SQL Query to create and import data from csv files:
 CREATE DATABASE ccdb;
 
 
-2. Create cc_detail table
+2. Create cc_detail table (cc - Credit Card)
 
 CREATE TABLE cc_detail (
     Client_Num INT,
@@ -39,7 +39,7 @@ CREATE TABLE cc_detail (
 );
 
 
-3. Create cc_detail table
+3. Create cust_detail table  (cust - Customer)
 
 CREATE TABLE cust_detail (
     Client_Num INT,
